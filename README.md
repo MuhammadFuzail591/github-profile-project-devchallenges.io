@@ -49,7 +49,7 @@ An interactive **AI agent** that will allow users to ask questions about the per
 ## 🧪 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/github-profile-viewer.git
+git clone https://github.com/MuhammadFuzail591/github-profile-project-devchallenges.io.git
 cd github-profile-viewer
 npm install
 npm run dev
@@ -59,7 +59,7 @@ npm run dev
 
 The app is deployed via **Vercel**/**Netlify**/**GitHub Pages** (update based on your deployment).
 
-🔗 **Live Demo** - [Add your deployment URL here]
+🔗 **Live Demo** - [https://github-profile-project-devchallenge.vercel.app/]
 
 ## 🙌 Contributions & Feedback
 
