@@ -27,7 +27,7 @@ function Search({ setShowUI }) {
          <div className='flex flex-col w-mx-auto w-10/12 md:w-5/12 lg:w-4/12 gap-2'>
             <form onSubmit={handleSubmit} className=''>
                <div className='flex items-center bg-[#20293A] mt-6 text-white rounded-md p-3 gap-2'>
-                  <IoIosSearch className='text-2xl w-1/12' />
+                  <IoIosSearch className='text-2xl' />
                   <input type='text' value={searchTerm} className=" rounded-md outline-none w-full" onChange={(e) => setSearchTerm(e.target.value)} placeholder='username' />
                </div>
             </form>
