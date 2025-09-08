@@ -10,11 +10,11 @@ function Header() {
 
 
   return (
-    <div className='flex items-end relative gap-12 -mt-16 mx-auto w-10/12 xl:w-8/12'>
+    <div className='flex items-end relative gap-12 -mt-16 mx-auto w-10/12'>
       <div className='w-[120px] absolute -top-0 lg:static h-[120px] p-2 pb-0 rounded-2xl bg-[#20293A] '>
         <img src={userData?.avatar_url} alt="" className='object-cover w-full h-full rounded-lg' />
       </div>
-      <div className='flex gap-4 flex-col mt-35 lg:mt-20 lg:flex-row'>
+      <div className='flex flex-col gap-4 mt-35 lg:mt-20 lg:flex-row'>
         <HeaderCard text={"Followers"} text2={userData?.followers || 0} />
         <HeaderCard text={"Following"} text2={userData?.following || 0} />
         <HeaderCard text={"Location"} text2={userData?.location || "Not Known"} />

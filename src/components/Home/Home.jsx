@@ -8,15 +8,15 @@ function Home() {
    const [showUI, setShowUI] = React.useState(false)
 
    return (
-      <div className='grid [grid-template-columns:1fr_1fr] h-full w-full'>
+      <div className='h-full flex w-full'>
 
-         <div className='font-vietnam flex flex-col'>
+         <div className='font-vietnam flex flex-col w-full'>
             <Search setShowUI={setShowUI} />
             {showUI ? <Header /> : ''}
             {showUI ? <RepoGrid /> : ''}
          </div>
 
-         <Chatbot />
+         {/* <Chatbot /> */}
       </div>
    )
 }

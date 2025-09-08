@@ -24,7 +24,7 @@ function Search({ setShowUI }) {
 
    return (
       <div className="bg-[url('/images/bg-md.jpg')] bg-no-repeat bg-cover bg-center lg:bg-left w-full h-[25vh] flex justify-center ">
-         <div className='flex flex-col w-mx-auto w-10/12 md:w-5/12 lg:w-4/12 gap-2'>
+         <div className='flex flex-col w-mx-auto w-10/12 lg:w-6/12 gap-2'>
             <form onSubmit={handleSubmit} className=''>
                <div className='flex items-center bg-[#20293A] mt-6 text-white rounded-md p-3 gap-2'>
                   <IoIosSearch className='text-2xl' />
